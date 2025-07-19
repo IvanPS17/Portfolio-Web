@@ -81,6 +81,7 @@ header img {
     height: 0.8rem;
     vertical-align: middle;
     align-items: center;
+    margin-bottom: 0.2rem;
 }
 
 .article {
@@ -90,4 +91,25 @@ header img {
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f5f5f5;
+}
+
+.projects {
+    margin: 2rem auto;
+    width: 80%;
+    padding: 1rem;
+    background-color: #bebebe  ;
+    border-radius: 8px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: #e7e7e7;
+}
+
+.contact-form input, textarea {
+    margin-bottom: 0.4rem;
 }
